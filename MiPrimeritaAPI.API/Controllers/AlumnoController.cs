@@ -16,6 +16,13 @@ namespace MiPrimeritaAPI.API.Controllers
             this.alumnoBL = alumnoBL;
         }
 
+        [HttpGet]
+        [Route("ping")]
+        public string Ping()
+        {
+            return "hola";
+        }
+
         /// <summary>
         /// Esto sirve para insertar un alumno.
         /// </summary>

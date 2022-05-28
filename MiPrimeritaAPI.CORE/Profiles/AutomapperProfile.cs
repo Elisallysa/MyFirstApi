@@ -15,6 +15,10 @@ namespace MiPrimeritaAPI.CORE.Profiles
         {
             CreateMap<AlumnoDTO, Alumno>();
             CreateMap<Alumno, AlumnoDTO>();
+            CreateMap<UserDTO, User>();
+            CreateMap<User, UserDTO>();
+            CreateMap<LoginDTO, UserDTO>();
+            CreateMap<UserDTO, LoginDTO>();
         }
 
     }
